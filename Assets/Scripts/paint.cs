@@ -10,7 +10,7 @@ public class paint : MonoBehaviour
     
     private void Awake() {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.color = Random.ColorHSV(0f, 1f, 0.8f, 1f, 0.8f, 1f);
+        spriteRenderer.color = Random.ColorHSV(0f, 0.4f, 0.0f, 0.4f, 0.2f, 0.4f);
     }
     
     private void Update() {

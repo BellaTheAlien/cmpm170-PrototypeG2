@@ -1527,6 +1527,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  paint: {fileID: 5885205797096449243, guid: 20aa281bc513e2f428917edd429c3d25, type: 3}
+  attackRange: 2
 --- !u!50 &1556022925
 Rigidbody2D:
   serializedVersion: 5

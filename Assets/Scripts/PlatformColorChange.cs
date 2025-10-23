@@ -14,7 +14,7 @@ public class PlatformColorChange : MonoBehaviour
         
         ChangeColor(standardColor);
     }
-void ChangeColor(Color color)
+    void ChangeColor(Color color)
     {
         Renderer objectRenderer = GetComponent<Renderer>();
 
